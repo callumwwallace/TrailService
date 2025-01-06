@@ -7,6 +7,6 @@ def get_db_connection():
         "SERVER=dist-6-505.uopnet.plymouth.ac.uk.;"
         "DATABASE=COMP2001_CWallace;"
         "UID=CWallace;"
-        "PWD=;"
+        "PWD=OelP598*;"
     )
     return conn

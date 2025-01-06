@@ -13,4 +13,4 @@ api.add_namespace(auth_ns, path="/auth")
 api.add_namespace(trail_ns, path="/trails")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=8000)
